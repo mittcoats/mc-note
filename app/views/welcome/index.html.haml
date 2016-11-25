@@ -1,1 +1,33 @@
-%h1 What up? Welcome!
+#banner
+	.banner_content
+		%h1 McNote
+		%p Your online notebook. Never forget again.
+		%button= link_to "Sign Up", new_user_registration_path
+
+#testimonial
+	.wrapper
+		%p.quote "Better than Evernote, really."
+		%p.name - Mitt Coats
+
+#callouts
+	.callout_inner
+		.wrapper
+			.callout
+				%h2 Notes
+				%p Blah
+			.callout
+				%h2 Blitz
+				%p Blah
+			.callout
+				%h2 Boost
+				%p Blah
+
+
+#bottom_cta
+	.wrapper
+		%h2 Yo! Get with it.
+		%p You should sign up... major FOMO if you don't :-O
+		%button= link_to "Click here!!!", new_user_registration_path
+
+%footer
+	%p &copy; Mittens
